@@ -29,7 +29,7 @@ btn.addEventListener("click", () => {
     students.style.display = "block";
 
     students.innerHTML = `
-        <p><strong>Name:</strong> ${name.value}</p>
+        <p>Name:</strong> ${name.value}</p>
         <p><strong>Email:</strong> ${email.value}</p>
         <p><strong>Password:</strong> ${password.value}</p>
     `;
