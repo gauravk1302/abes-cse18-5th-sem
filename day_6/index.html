@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Student Management System</h1>
+
+    <div class="form">
+
+        <div>
+            <label>Student Name</label>
+            <input type="text" id="studentName">
+        </div>
+
+        <div>
+            <label>Roll No</label>
+            <input type="text" id="rollNo">
+        </div>
+
+        <div>
+            <label>Course</label>
+            <select id="course">
+                <option value="">Select Course</option>
+                <option>B.Tech CSE</option>
+                <option>B.Tech IT</option>
+                <option>B.Tech ECE</option>
+                <option>BCA</option>
+                <option>MCA</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Marks</label>
+            <input type="number" id="marks" max="100" min="0">
+        </div>
+
+    </div>
+
+    <button onclick="addStudent()">Add Student</button>
+
+    <br><br>
+
+    <input type="text" id="search"
+           placeholder="Search Name or Roll No"
+           onkeyup="displayStudents()">
+
+    <h3>Total Students: <span id="totalStudents">0</span></h3>
+
+    <h3>Average Marks: <span id="averageMarks">0</span></h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Roll No</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Marks</th>
+                <th>Grade</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody id="studentTable"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
