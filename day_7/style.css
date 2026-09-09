@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f8fa;
+    color: #222;
+}
+
+/* Header */
+
+.header {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto 45px;
+    padding: 25px 30px;
+    background: white;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+/* Products */
+
+.products {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+
+
+/* Product Card */
+
+.product {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+.product:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Product Image */
+
+.product img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+
+/* Product Name */
+
+.product h3 {
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+/* Product Price */
+
+.product p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Footer */
+
+.footer {
+    margin-top: 70px;
+    padding: 25px;
+    background: #222;
+    color: #aaa;
+    text-align: center;
+}
