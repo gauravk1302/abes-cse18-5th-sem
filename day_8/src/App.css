@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.app {
+  text-align: center;
+  padding: 30px;
+}
+
+.app h1 {
+  color: #333;
+}
+
+.card {
+  width: 400px;
+  margin: 20px auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.card h2 {
+  text-align: center;
+  color: #2563eb;
+}
+
+.card h3 {
+  color: #333;
+}
+
+.student {
+  color: green;
+  font-weight: bold;
+}
+
+.not-student {
+  color: red;
+  font-weight: bold;
+}
+
+li {
+  margin: 8px 0;
+}
+
+.course {
+  padding: 10px;
+  margin: 8px 0;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.course p {
+  margin: 5px 0 0;
+  color: #666;
+}
+
+button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
